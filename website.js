@@ -80,5 +80,5 @@ function displaySeconds() {
     var seconds = currentTime.getSeconds();
     document.getElementById("date").innerHTML= `Time: ${hours}:${minutes}:${seconds}`;
 }
-setInterval(displaySeconds, 1000  -///// );
+setInterval(displaySeconds, 500  );
 
